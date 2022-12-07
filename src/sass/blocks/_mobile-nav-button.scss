@@ -1,0 +1,51 @@
+.mobile-nav-button {
+    position: relative;
+    z-index: 10;
+    width: 2.5rem;
+    height: 1.875rem;
+    display: none;
+    justify-content: center;
+    align-items: center;
+    &__icon {
+        display: block;
+        position: relative;
+        width: 1.875rem;
+        height: 0.125rem;
+        background-color: #2d2d2d;
+        &::after, &::before {
+            position: absolute;
+            content: "";
+            width: 1.875rem;
+            height: 0.125rem;
+            background-color: #2d2d2d;
+            transition: transform 0.15s ease-in, top 0.15s ease-in;
+        }
+    
+        &::before {
+            left: 0;
+            top: -0.625rem;
+        }
+    
+        &::after {
+            left: 0;
+            top: 0.625rem;
+        }
+    
+        &.active {
+            background-color: transparent;
+    
+            &::before {
+                transform: rotate(45deg);
+                top: 0;
+                transition: top 0.15s linear, transform 0.15s ease-in 0.15;
+            }
+    
+            &::after {
+                transform: rotate(-45deg);
+                top: 0;
+                transition: top 0.15s linear, transform 0.15s ease-in 0.15;
+            }
+        }
+    }
+}
+

@@ -1,0 +1,63 @@
+@keyframes flag1 {
+    from {
+        transform: translate(110%,143%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(130%, -40%);
+        opacity: 1;
+    }
+}
+
+@keyframes flag2 {
+    from {
+        transform: translate(110%,143%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-25%,30%);
+        opacity: 1;
+    }
+}
+
+@keyframes flag3 {
+    from {
+        transform: translate(110%,143%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(-35%,215%);
+        opacity: 1;
+    }
+}
+
+@keyframes flag4 {
+    from {
+        transform: translate(110%,143%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(350%,190%);
+        opacity: 1;
+    }
+}
+
+@keyframes flag5 {
+    from {
+        transform: translate(110%,143%);
+        opacity: 0;
+    }
+    to {
+        transform: translate(265%,35%);
+        opacity: 1;
+    }
+}
+
+@keyframes rotation {
+    from {
+        transform: rotate(0);
+    }
+    to {
+        transform: rotate(360deg);
+    }
+}

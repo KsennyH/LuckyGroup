@@ -1,0 +1,17 @@
+// base
+@import "./base/variables";
+@import "./base/reset";
+@import "./base/base";
+@import "./base/animation";
+
+// blocks
+@import "./blocks/header/header";
+@import "./blocks/btn";
+@import "./blocks/decor-color";
+@import "./blocks/top-up";
+@import "./blocks/mobile-nav-button";
+@import "./blocks/search";
+@import "./blocks/users";
+
+// media
+@import "./base/media";

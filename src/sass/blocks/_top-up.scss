@@ -1,0 +1,86 @@
+.top-up {
+    padding: 5rem 0;
+    &__wrapper {
+        display: flex;
+        justify-content: space-between;
+    }
+    &__content {
+        flex: 0 1 50%;
+    }
+    &__inner {
+        margin-bottom: 3.125rem;
+    }
+    &__title {
+        max-width: 80%;
+        font-weight: 700;
+        color: $title;
+        font-size: 3rem;
+        line-height: 135%;
+        margin-bottom: 0.75rem;
+    }
+    &__text {
+        max-width: 75%;
+        font-size: 0.9375rem;
+        line-height: 173%;
+        margin-bottom: 1.25rem;
+        p + p {
+            margin-top: 0.625rem;
+        }
+    }
+    &__foto {
+        flex: 0 0 38%; 
+    }
+    &__background {
+        position: relative;
+    }
+    &__images {
+        animation-name: rotation;
+        animation-duration: 6s;
+        animation-iteration-count: infinite;
+        animation-delay: 6s;
+        animation-timing-function: linear;
+    }
+    &__flag {
+        position: absolute;
+        top: 0;
+        left: 0;
+        transform: translate(110%,143%);
+        opacity: 0;
+        &--1 {
+            animation: flag1 2s 3s forwards;
+        }
+        &--2 {
+            animation: flag2 2s 3.4s forwards;
+        }
+        &--3 {
+            animation: flag3 2s 3.8s forwards;
+        }
+        &--4 {
+            animation: flag4 2s 4.2s forwards;
+        }
+        &--5 {
+            animation: flag5 2s 4.6s forwards;
+        }
+    }
+    &__girl {
+        max-width: 292px;
+        height: auto;
+        position: absolute;
+        top: 13%;
+        right: 19%;
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
